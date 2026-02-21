@@ -34,4 +34,4 @@ lib/
 
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/Ai-MAFlutter/flutter-simple-panking-app.git](https://github.com/Ai-MAFlutter/flutter-simple-panking-app.git)
+  git clone https://github.com/Ai-MAFlutter/flutter-simple-panking-app.git
