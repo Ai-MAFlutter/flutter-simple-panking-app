@@ -1,16 +1,37 @@
-# panking_app
+# Flutter Simple Panking App 🏦 💸
 
-A new Flutter project.
+A functional and clean **Banking Management System** built with **Flutter**. This project demonstrates how to handle financial data locally using a **SQLite** database, 
+allowing users to manage accounts and perform money transfers seamlessly.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+### 🔥 Features
 
-A few resources to get you started if this is your first Flutter project:
+* **⚡ Smart Transactions:** Perform instant money transfers between accounts with real-time balance updates.
+* **📂 Database Management:** Fully integrated with `sqflite` for reliable local storage of users and transaction history.
+* **👥 User Directory:** Browse a pre-seeded list of 10 initial customers with unique balances.
+* **🎨 Premium UI:** Modern Indigo-gradient design with Material 3 components and smooth animations.
+* **✅ Data Integrity:** Built-in logic to prevent overdrafts and ensure transaction accuracy.
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- **Framework:** Flutter
+- **Database:** SQLite (`sqflite` package)
+- **Language:** Dart
+- **Logic:** DBHelper with transaction-safe updates.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+### 📂 Project Structure
+
+```text
+lib/
+├── screens/       # UI Screens (Home, Customers, Details, Transfer)
+├── services/      # Database logic (DBHelper)
+└── main.dart      # App Entry Point
+
+---
+### 🚀 How to Run
+
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/Ai-MAFlutter/flutter-simple-panking-app.git](https://github.com/Ai-MAFlutter/flutter-simple-panking-app.git)
