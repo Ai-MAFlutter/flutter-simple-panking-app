@@ -29,3 +29,8 @@ lib/
 ├── services/      # Database logic (DBHelper)
 └── main.dart      # App Entry Point
 
+---
+🚀 How to Run
+1. **Clone the repo:**
+   ```bash
+  git clone https://github.com/Ai-MAFlutter/flutter-simple-panking-app.git
